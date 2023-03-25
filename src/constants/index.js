@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+  frontend,
   web,
   javascript,
   typescript,
@@ -14,14 +14,13 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mooi,
+  sanny,
+  power,
+  angels,
+  recipe,
+  bad,
+  admin,
   threejs,
 } from "../assets";
 
@@ -42,7 +41,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -54,8 +53,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Frontend Developer",
+    icon: frontend,
   },
 ];
 
@@ -108,63 +107,59 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Design/Developer Intern",
+    company_name: "San Antonio Regional Hospital",
+    icon: sanny,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a web and mobile app for patient education videos to improve patient learning and compliance,resulting in a reduction of hospital readmissions",
+      "Improved existing website, resulting in a 5% decrease in page bounce-rate for visitors",
+      "Updated website to include ADA-compliant features for low vision and handicapped visitors",
+      "Demonstrated strong communication skills by maintaining daily contact with internship supervisor while completing projects",
+      "Trained in Progress Sitefinity Website CMS, including Bootstrap 4 and .NET framework",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "IT Web Design/Developer Internship",
+    company_name: "Power Changes Lives",
+    icon: power,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jul 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proven success in team management, overseeing a team of 12 developers to deliver pojects on time and within budget",
+      "Demonstrated strong project management skills by delivering 5 high-priority projects ahead of schedule",
+      "Led the development of 10+ successful projects, consistently maintaining customer satisfaction rates above 95%",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "Mooi Digital Marketing",
+    icon: mooi,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2021 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved customer engagement by 10% through migration of many-page user experience into a singlepage app",
+      "Participated in all phases of product development process, resulting in features with over 1000 users",
+      "Collaborated with in-house designers to redesign website using HTML, CSS, and JavaScript, making it responsive for mobile devices and increasing customer engagement by over 8%",
+      "Created marketing website for startup company, leading to a 50% increase in web traffic",
+      "Developed responsive design compatible with all devices, resulting in a 5% increase in conversions",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer",
+    company_name: "Angels Paradise Academy",
+    icon: angels,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Jun 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed frontend for daycare website using React, resulting in a 30% decrease in development time",
+      "Improved user engagement by 20% through implementation of responsive design on all devices",
+      "Created visually appealing interface using CSS and HTML, resulting in a 15% increase in traffic",
     ],
   },
 ];
@@ -172,38 +167,59 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Angus is a great frontend developer. He worked very hard on our website and designed it exceptionally well. Everything looks clean and works perfectly.",
+    name: "Kate",
+    designation: "Admin Clerk",
+    company: "Angels Paradise Academy",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Angus worked for our company. His intelligence, energy and loyalty struck me. He is a treasured member of the team, someone you want to keep close.",
+    name: "John",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Mooi Digital Marketing",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Can't reccomend him enough. He is a very talented and hardworking individual. He is a very responsible employee who takes the team's success personally.",
+    name: "Lisa",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "LLM Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Baad Movies",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Baad Movies is a website that recommends movies that are so bad they're good. Discover the best terrible films and find out which ones are worth your time.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bad,
+    source_code_link: "https://github.com/AMACAFELLA/baadmovies",
+  },
+  {
+    name: "Timed Tasks",
+    description:
+      "Web backend class team project using Node.js, MongDB, Express.js, Auth0, and Jest. To login and create an account use /login",
+    tags: [
+      {
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +227,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
+        name: "auth0",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "jest",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: recipe,
+    source_code_link: "https://github.com/AMACAFELLA/recipe_app",
   },
   {
-    name: "Trip Guide",
+    name: "Admin dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Admin dashboard app using React.js and Syncfusion. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "syncfusion",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: admin,
+    source_code_link: "https://github.com/AMACAFELLA/ecomm",
   },
 ];
 
