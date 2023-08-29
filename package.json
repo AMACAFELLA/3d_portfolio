@@ -17,7 +17,7 @@
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.273",
     "framer-motion": "^10.2.3",
-    "maath": "^0.5.2",
+    "maath": "^0.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
