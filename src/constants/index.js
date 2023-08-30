@@ -22,6 +22,8 @@ import {
   bad,
   admin,
   threejs,
+  spider,
+  threads,
 } from "../assets";
 
 export const navLinks = [
@@ -192,6 +194,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "You're Wrong",
+    description:
+      "You're Wrong is a thread/twitter like app where instead of agreeing on points the aim is to disagree with the original post and whoever gets the most dislikes is awarded You're the Worst Medal. This is soley for entertainment purposes only and is not to be considered to take what users say on the app to be serious.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: threads,
+    source_code_link: "https://github.com/AMACAFELLA/you_are_wrong",
+  },
+  {
+    name: "Portfolio-verse",
+    description:
+      "Imagine if Miles Morales, from the iconic Spider- Verse, dived into the world of computer science and crafted a captivating portfolio website.Inspired by his story, I brought his vision to life, envisioning how he would showcase his extraordinary web - slinging talents across the vast World Wide Web.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spider,
+    source_code_link: "https://github.com/AMACAFELLA/Portfolio-Verse",
+  },
   {
     name: "Baad Movies",
     description:

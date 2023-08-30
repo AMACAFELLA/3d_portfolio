@@ -28,6 +28,8 @@ import power from "./company/power.png";
 import bad from "./bad.png";
 import admin from "./admin.png";
 import recipe from "./recipe.png";
+import threads from "./threads.png"
+import spider from "./spider.png"
 
 export {
   logo,
@@ -57,4 +59,6 @@ export {
   recipe,
   bad,
   admin,
+  threads,
+  spider,
 };
