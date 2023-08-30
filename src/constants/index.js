@@ -197,7 +197,7 @@ const projects = [
   {
     name: "You're Wrong",
     description:
-      "You're Wrong is a thread/twitter like app where instead of agreeing on points the aim is to disagree with the original post and whoever gets the most dislikes is awarded You're the Worst Medal. This is soley for entertainment purposes only and is not to be considered to take what users say on the app to be serious.",
+      "You're Wrong is a thread/twitter like app where instead of agreeing on points the aim is to disagree with the original post. The most dislikes is awarded You're the Worst Medal.",
     tags: [
       {
         name: "next.js",
@@ -218,7 +218,7 @@ const projects = [
   {
     name: "Portfolio-verse",
     description:
-      "Imagine if Miles Morales, from the iconic Spider- Verse, dived into the world of computer science and crafted a captivating portfolio website.Inspired by his story, I brought his vision to life, envisioning how he would showcase his extraordinary web - slinging talents across the vast World Wide Web.",
+      "Imagine if Miles Morales, from the iconic Spider- Verse, dived into the world of computer science and crafted a captivating portfolio website.",
     tags: [
       {
         name: "html",
